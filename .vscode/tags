@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+data.py	../data.py	1;"	kind:file	line:1
+Articles	../data.py	/^def Articles():$/;"	kind:function	line:1
+app.py	../app.py	1;"	kind:file	line:1
+app	../app.py	/^app = Flask(__name__)$/;"	kind:variable	line:8
+mysql	../app.py	/^mysql = MySQL(app)$/;"	kind:variable	line:17
+Articles	../app.py	/^Articles = Articles()$/;"	kind:variable	line:19
+index	../app.py	/^def index():$/;"	kind:function	line:22
+about	../app.py	/^def about(): $/;"	kind:function	line:26
+articles	../app.py	/^def articles():$/;"	kind:function	line:30
+article	../app.py	/^def article(id):$/;"	kind:function	line:45
+RegisterForm	../app.py	/^class RegisterForm(Form):$/;"	kind:class	line:48
+name	../app.py	/^    name = StringField('Name', [validators.length(min=1, max=50)])$/;"	kind:variable	line:49
+username	../app.py	/^    username = StringField('Username', [validators.length(min=4, max=25)])$/;"	kind:variable	line:50
+email	../app.py	/^    email = StringField('Email', [validators.length(min=6, max=50)])$/;"	kind:variable	line:51
+password	../app.py	/^    password = PasswordField('Password', [$/;"	kind:variable	line:52
+confirm	../app.py	/^    confirm = PasswordField('Confirm password')$/;"	kind:variable	line:56
+register	../app.py	/^def register():$/;"	kind:function	line:59
+login	../app.py	/^def login():$/;"	kind:function	line:81
+is_logged_in	../app.py	/^def is_logged_in(f):$/;"	kind:function	line:113
+wrap	../app.py	/^    def wrap(*args, **kwargs):$/;"	kind:function	line:115
+dashboard	../app.py	/^def dashboard(): $/;"	kind:function	line:126
+ArticleForm	../app.py	/^class ArticleForm(Form):$/;"	kind:class	line:140
+title	../app.py	/^    title = StringField('Title', [validators.length(min=1, max=200)])$/;"	kind:variable	line:141
+body	../app.py	/^    body = TextAreaField('Body', [validators.length(min=10)])$/;"	kind:variable	line:142
+add_article	../app.py	/^def add_article():$/;"	kind:function	line:146
+logout	../app.py	/^def logout():$/;"	kind:function	line:167
